@@ -164,10 +164,10 @@
 			{/if}
 
 			{#if hasPullQuestEvents}
-			    <div class="category-bubble pullquest">
-			        <h2 class="section-title">Pull Quest Series:</h2>
-			        <EventGrid {events} category="PullQuest" {openEvent} onComplete={handleComplete} isLoggedIn={!!data.user} />
-			    </div>
+				<div class="category-bubble pullquest">
+					<h2 class="section-title">Pull Quest Series:</h2>
+					<EventGrid {events} category="PullQuest" {openEvent} onComplete={handleComplete} isLoggedIn={!!data.user} />
+				</div>
 			{/if}
 			
 			{#if hasHardwareEvents}
